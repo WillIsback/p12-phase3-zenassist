@@ -1,0 +1,12 @@
+[project]
+name = "phase-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.135.3",
+    "pytest>=9.0.3",
+    "ruff>=0.15.9",
+    "scikit-learn>=1.8.0",
+]

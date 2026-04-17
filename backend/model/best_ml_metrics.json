@@ -1,0 +1,77 @@
+{
+  "version": "0.1.0",
+  "created_at_utc": "2026-04-08T01:14:56.429420+00:00",
+  "dataset_path": "data/dataset.csv",
+  "dataset_sha256": "80db47ac8e817bfd1f0588f785a847f03d5f3052f244c0e47bdf8f312e7b52bc",
+  "dataset_row_count": 383564,
+  "train_row_count": 306851,
+  "test_row_count": 76713,
+  "best_model_name": "SGDClassifier(early_stopping)",
+  "metrics": {
+    "model": "SGDClassifier(early_stopping)",
+    "accuracy_train": 0.8315012823813512,
+    "accuracy_test": 0.828034361842191,
+    "f1_macro_train": 0.7198928391556484,
+    "f1_macro_test": 0.6853664416916154,
+    "f1_weighted_test": 0.8307754018169363,
+    "f1_macro_gap": 0.034526397464032965,
+    "selection_score": 0.668103242959599
+  },
+  "ranking": [
+    {
+      "model": "SGDClassifier(early_stopping)",
+      "accuracy_train": 0.8315012823813512,
+      "accuracy_test": 0.828034361842191,
+      "f1_macro_train": 0.7198928391556484,
+      "f1_macro_test": 0.6853664416916154,
+      "f1_weighted_test": 0.8307754018169363,
+      "f1_macro_gap": 0.034526397464032965,
+      "selection_score": 0.668103242959599
+    },
+    {
+      "model": "LinearSVC(C=0.01,cw=balanced)",
+      "accuracy_train": 0.8299435230779759,
+      "accuracy_test": 0.8237586849686493,
+      "f1_macro_train": 0.7214085422332984,
+      "f1_macro_test": 0.6743294547522652,
+      "f1_weighted_test": 0.8256276482130278,
+      "f1_macro_gap": 0.04707908748103318,
+      "selection_score": 0.6507899110117487
+    },
+    {
+      "model": "ComplementNB",
+      "accuracy_train": 0.7946821095580591,
+      "accuracy_test": 0.795002150874037,
+      "f1_macro_train": 0.5423809887945727,
+      "f1_macro_test": 0.5403891801725007,
+      "f1_weighted_test": 0.7786249980031719,
+      "f1_macro_gap": 0.0019918086220720443,
+      "selection_score": 0.5393932758614647
+    },
+    {
+      "model": "DummyClassifier(most_frequent)",
+      "accuracy_train": 0.323195948522247,
+      "accuracy_test": 0.32319163635889614,
+      "f1_macro_train": 0.044409824408051114,
+      "f1_macro_test": 0.04440937660648811,
+      "f1_weighted_test": 0.15788013004642312,
+      "f1_macro_gap": 4.478015630041132e-07,
+      "selection_score": 0.04440915270570661
+    }
+  ],
+  "classes": [
+    "Bank account",
+    "Consumer Loan",
+    "Credit card",
+    "Credit reporting",
+    "Debt collection",
+    "Money transfer",
+    "Mortgage",
+    "Other financial service",
+    "Payday loan",
+    "Student loan",
+    "Vehicle loan or lease"
+  ],
+  "text_column": "Consumer Claim",
+  "target_column": "Tag"
+}
