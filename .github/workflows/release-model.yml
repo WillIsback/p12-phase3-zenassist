@@ -24,7 +24,8 @@ jobs:
           gh release download --repo WillIsback/p12-phase1-zenassist \
             --pattern "best_ml_classifier.pkl" \
             --pattern "best_ml_metrics.json" \
-            --dir backend/model
+            --dir backend/model \
+            --clobber
 
       - name: Install uv
         uses: astral-sh/setup-uv@v4
