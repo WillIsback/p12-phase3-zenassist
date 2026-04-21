@@ -83,6 +83,9 @@ Le fichier `best_ml_classifier.pkl` n'est pas versionné dans git. Téléchargez
 mkdir -p backend/model
 # Télécharger best_ml_classifier.pkl depuis les releases GitHub Phase 1
 # et le placer dans backend/model/
+wget https://github.com/WillIsback/p12-phase1-zenassist/releases/download/v0.1.1/best_ml_classifier.pkl
+
+mv best_ml_classifier.pkl backend/model/best_ml_classifier.pkl
 ```
 
 ### 3. Backend (FastAPI)
